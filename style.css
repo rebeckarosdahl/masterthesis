@@ -944,6 +944,8 @@ padding-left: 4px;
   background-image: url("textBack.svg");
   position: relative;
   margin: 0 auto;
+  background-size: 100%;
+
 }
 
 .demobutton {
