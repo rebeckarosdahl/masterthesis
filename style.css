@@ -1120,7 +1120,7 @@ h4 {
             }
             .mytooltip2 .mytext2:after {
                content: "";
-               position: fixed;
+               position: absolute;
                top: 100%;
                left: 70%;
                margin-left: -10px;
