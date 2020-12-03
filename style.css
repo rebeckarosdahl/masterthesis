@@ -1106,13 +1106,13 @@ h4 {
                text-align: center;
                border-radius: 4px;
                padding: 10px 0;
-               position: absolute;
+               position: fixed;
                text-align: left;
                padding-left: 10px;
                font-family: 'Storytel Euclid';
             }
             .mytooltip2 {
-               position: static;
+               position: fixed;
                /* margin-top: 40px; */
                right: 0px;
                bottom: 25px;
@@ -1120,7 +1120,7 @@ h4 {
             }
             .mytooltip2 .mytext2:after {
                content: "";
-               position: absolute;
+               position: fixed;
                top: 100%;
                left: 70%;
                margin-left: -10px;
