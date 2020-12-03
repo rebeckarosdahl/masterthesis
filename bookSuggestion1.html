@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Master Thesis </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javaScript.js"> </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/v4-shims.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body class="light" onload="viewbooks();">
+
+  <div class="floatright">
+    <a href="homeBooksAdded.html" class="skip" style="text-decoration:none; color:#FF5C28;">Skip</a>
+  </div>
+
+  <h2> You might <br> like this... </h2>
+
+  <div class="container">
+    <div class="inner-container">
+      <div class="card inactive-1"></div>
+      <div class="card inactive-2"></div>
+      <div class="card">
+        <div class="content active">
+          <div class = "mytooltip">
+            <span class = "mytext"> Add to your<br>bookshelf</span>
+          </div>
+          <div class="middle" id="hej" class="mightlike">
+          </div>
+          <p>Follow the life of an orphan chess prodigy, Beth Harmon, during her quest to become the world's greatest chess player while struggling with emotional problems and drug and alcohol dependency.</p>
+          <div class="sample">
+              <audio id="myTune">
+                <source src="gambitsound.mp3" type="audio/mp3">
+              </audio>
+              <button onclick="aud_play_pause()" class="next" id="toggleaudio"><p><i class="fas fa-play"></i> Play sample</p></button>
+          </div>
+        </div>
+        <div class="content">
+          <img src="elea.jpg" class="mightlike" width="100%">
+          <p>The story of an out-of-the-ordinary heroine whose deadpan weirdness and unconscious wit make for an irresistible journey.</p>
+          <div class="sample">
+              <audio id="myTune3">
+                <source src="eleasound.mp3" type="audio/mp3">
+              </audio>
+              <button onclick="aud_play_pause()" class="next" id="toggleaudio3"><p><i class="fas fa-play"></i> Play sample</p></button>
+          </div>
+        </div>
+        <div class="content">
+          <img src="alch.jpg" class="mightlike" width="100%">
+          <p>A shepherd travels from Spain to the Egyptian desert in hopes of finding a buried treasure within the Pyramids. </p>
+          <div class="sample">
+              <audio id="myTune2">
+                <source src="alchsound.mp3" type="audio/mp3">
+              </audio>
+              <button onclick="aud_play_pause()" class="next" id="toggleaudio2"><p><i class="fas fa-play"></i> Play sample</p></button>
+          </div>
+        </div>
+        <div class="progress-container">
+          <div class="step"></div>
+        </div>
+      </div>
+    </div>
+
+    <a class="like" href="#" id="next">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="far fa-heart fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+
+    <a class="dismiss" href="#" id="next">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fas fa-times fa-stack-1x"></i>
+      </span>
+    </a>
+
+  </div>
+
+</body>

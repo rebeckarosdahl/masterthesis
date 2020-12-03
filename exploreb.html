@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Master Thesis </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/v4-shims.js"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="javaScript.js"> </script>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+</head>
+<body onload="showbook()">
+
+<div class="newreleases">
+
+  <div class="bookshelf">
+    <h3> New releases</h3>
+    <p> Perfect to listen to while doing something less fun.</p>
+  </div>
+
+<div class="main">
+  <!-- Swiper -->
+   <div class="swiper-container2">
+     <div class="swiper-wrapper">
+       <div class="swiper-slide">
+         <img src="new1.jpg" class="bookcover" id="new1" name="bookslider">
+       </div>
+       <div class="swiper-slide">
+         <img src="new2.jpg" class="bookcover" id="new2" name="bookslider">
+       </div>
+       <div class="swiper-slide">
+         <img src="new3.jpg" class="bookcover" id="new3" name="bookslider">
+       </div>
+       <div class="swiper-slide">
+         <img src="new4.jpg" class="bookcover" id="new4" name="bookslider">
+       </div>
+       <div class="swiper-slide">
+         <img src="new5.jpg" class="bookcover" id="new5" name="bookslider">
+       </div>
+
+     </div>
+     <!-- Add Pagination -->
+     <div class="swiper-pagination"></div>
+   </div>
+ </div>
+</div>
+
+<div class="main2">
+  <!-- Swiper -->
+  <div class="left">
+
+        <div><p> <b>Most Popular in Sweden </b></p><div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="harryp.jpg" class="bookcover" id="harryp" name="bookslider">
+            </div>
+            <div class="swiper-slide">
+              <img src="allthelight.jpg" class="bookcover" id="allthelight" name="bookslider">
+            </div>
+            <div class="swiper-slide">
+              <img src="hobbit.jpg" class="bookcover" id="hobbit" name="bookslider">
+            </div>
+            <div class="swiper-slide">
+              <img src="perks.jpg" class="bookcover" id="perks" name="bookslider">
+            </div>
+            <div class="swiper-slide">
+              <img src="sapiens.jpg" class="bookcover" id="sapiens" name="bookslider">
+            </div>
+          </div>
+        </div>
+
+        <div><p> <b>Detective</b></p><div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="d1.jpg" class="bookcover" id="d1" name="bookslider">
+              </div>
+              <div class="swiper-slide">
+                <img src="d2.jpg" class="bookcover" id="d2" name="bookslider">
+              </div>
+              <div class="swiper-slide">
+                <img src="d3.jpg" class="bookcover" id="d3" name="bookslider">
+              </div>
+              <div class="swiper-slide">
+                <img src="d4.jpg" class="bookcover" id="d4" name="bookslider">
+              </div>
+              <div class="swiper-slide">
+                <img src="d5.jpg" class="bookcover" id="d5" name="bookslider">
+              </div>
+            </div>
+          </div>
+
+
+          <div><p> <b>Biography</b></p><div>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="b1.jpg" class="bookcover" id="b1" name="bookslider">
+                </div>
+                <div class="swiper-slide">
+                  <img src="b2.jpg" class="bookcover" id="b2" name="bookslider">
+                </div>
+                <div class="swiper-slide">
+                  <img src="b3.jpg" class="bookcover" id="b3" name="bookslider">
+                </div>
+                <div class="swiper-slide">
+                  <img src="b4.jpg" class="bookcover" id="b4" name="bookslider">
+                </div>
+                <div class="swiper-slide">
+                  <img src="b5.jpg" class="bookcover" id="b5" name="bookslider">
+                </div>
+              </div>
+            </div>
+
+            <div><p> <b>Classic</b></p><div>
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="c1.jpg" class="bookcover" id="c1" name="bookslider">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="c2.jpg" class="bookcover" id="c2" name="bookslider">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="c3.jpg" class="bookcover" id="c3" name="bookslider">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="c4.jpg" class="bookcover" id="c4" name="bookslider">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="c5.jpg" class="bookcover" id="c5" name="bookslider">
+                  </div>
+                </div>
+              </div>
+
+              <div><p> <b>Economy</b></p><div>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="e1.jpg" class="bookcover" id="e1" name="bookslider">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="e2.jpg" class="bookcover" id="e2" name="bookslider">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="e3.jpg" class="bookcover" id="e3" name="bookslider">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="e4.jpg" class="bookcover" id="e4" name="bookslider">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="e5.jpg" class="bookcover" id="e5" name="bookslider">
+                    </div>
+                  </div>
+                </div>
+
+
+                <div><p> <b>Facts</b></p><div>
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="f1.jpg" class="bookcover" id="f1" name="bookslider">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="f2.jpg" class="bookcover" id="f2" name="bookslider">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="f3.jpg" class="bookcover" id="f3" name="bookslider">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="f4.jpg" class="bookcover" id="f4" name="bookslider">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="f5.jpg" class="bookcover" id="f5" name="bookslider">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div><p> <b>Romance</b></p><div>
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="r1.jpg" class="bookcover" id="r1" name="bookslider">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="r2.jpg" class="bookcover" id="r2" name="bookslider">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="r3.jpg" class="bookcover" id="r3" name="bookslider">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="r4.jpg" class="bookcover" id="r4" name="bookslider">
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="r5.jpg" class="bookcover" id="r5" name="bookslider">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div><p> <b>Fantasy and ScFi</b></p><div>
+                      <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="fs1.jpg" class="bookcover" id="fs1" name="bookslider">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="fs2.jpg" class="bookcover" id="fs2" name="bookslider">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="fs3.jpg" class="bookcover" id="fs3" name="bookslider">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="fs4.jpg" class="bookcover" id="fs4" name="bookslider">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="fs5.jpg" class="bookcover" id="fs5" name="bookslider">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div><p> <b>History</b></p><div>
+                        <div class="swiper-container">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="h1.jpg" class="bookcover" id="h1" name="bookslider">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="h2.jpg" class="bookcover" id="h2" name="bookslider">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="h3.jpg" class="bookcover" id="h3" name="bookslider">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="h4.jpg" class="bookcover" id="h4" name="bookslider">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="h5.jpg" class="bookcover" id="h5" name="bookslider">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div><p> <b>Helath and Sleep</b></p><div>
+                          <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="hs1.jpg" class="bookcover" id="hs1" name="bookslider">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="hs2.jpg" class="bookcover" id="hs2" name="bookslider">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="hs3.jpg" class="bookcover" id="hs3" name="bookslider">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="hs4.jpg" class="bookcover" id="hs4" name="bookslider">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="hs5.jpg" class="bookcover" id="hs5" name="bookslider">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div><p> <b>Kids</b></p><div>
+                            <div class="swiper-container">
+                              <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                  <img src="k1.jpg" class="bookcover" id="k1" name="bookslider">
+                                </div>
+                                <div class="swiper-slide">
+                                  <img src="k2.jpg" class="bookcover" id="k2" name="bookslider">
+                                </div>
+                                <div class="swiper-slide">
+                                  <img src="k3.jpg" class="bookcover" id="k3" name="bookslider">
+                                </div>
+                                <div class="swiper-slide">
+                                  <img src="k4.jpg" class="bookcover" id="k4" name="bookslider">
+                                </div>
+                                <div class="swiper-slide">
+                                  <img src="k5.jpg" class="bookcover" id="k5" name="bookslider">
+                                </div>
+                              </div>
+                            </div>
+
+                            <div><p> <b>Novels</b></p><div>
+                              <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <img src="n1.jpg" class="bookcover" id="n1" name="bookslider">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="n2.jpg" class="bookcover" id="n2" name="bookslider">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="n3.jpg" class="bookcover" id="n3" name="bookslider">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="n4.jpg" class="bookcover" id="n4" name="bookslider">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="n5.jpg" class="bookcover" id="n5" name="bookslider">
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div><p> <b>Personal Development</b></p><div>
+                                <div class="swiper-container">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                      <img src="pd1.jpg" class="bookcover" id="pd1" name="bookslider">
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <img src="pd2.jpg" class="bookcover" id="pd2" name="bookslider">
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <img src="pd3.jpg" class="bookcover" id="pd3" name="bookslider">
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <img src="pd4.jpg" class="bookcover" id="pd4" name="bookslider">
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <img src="pd5.jpg" class="bookcover" id="pd5" name="bookslider">
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div><p> <b>Podcast</b></p><div>
+                                  <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                                        <img src="p1.jpg" class="bookcover" id="p1" name="bookslider">
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img src="p2.jpg" class="bookcover" id="p2" name="bookslider">
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img src="p3.jpg" class="bookcover" id="p3" name="bookslider">
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img src="p4.jpg" class="bookcover" id="p4" name="bookslider">
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img src="p5.jpg" class="bookcover" id="p5" name="bookslider">
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div><p> <b>Quick Listening</b></p><div>
+                                    <div class="swiper-container">
+                                      <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                          <img src="q1.jpg" class="bookcover" id="q1" name="bookslider">
+                                        </div>
+                                        <div class="swiper-slide">
+                                          <img src="q2.jpg" class="bookcover" id="q2" name="bookslider">
+                                        </div>
+                                        <div class="swiper-slide">
+                                          <img src="q3.jpg" class="bookcover" id="q3" name="bookslider">
+                                        </div>
+                                        <div class="swiper-slide">
+                                          <img src="q4.jpg" class="bookcover" id="q4" name="bookslider">
+                                        </div>
+                                        <div class="swiper-slide">
+                                          <img src="q5.jpg" class="bookcover" id="q5" name="bookslider">
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div><p> <b>Thrillers</b></p><div>
+                                      <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                            <img src="t1.jpg" class="bookcover" id="t1" name="bookslider">
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <img src="t2.jpg" class="bookcover" id="t2" name="bookslider">
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <img src="t3.jpg" class="bookcover" id="t3" name="bookslider">
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <img src="t4.jpg" class="bookcover" id="t4" name="bookslider">
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <img src="t5.jpg" class="bookcover" id="t5" name="bookslider">
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div><p> <b>True Crime</b></p><div>
+                                        <div class="swiper-container">
+                                          <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                              <img src="tc1.jpg" class="bookcover" id="tc1" name="bookslider">
+                                            </div>
+                                            <div class="swiper-slide">
+                                              <img src="tc2.jpg" class="bookcover" id="tc2" name="bookslider">
+                                            </div>
+                                            <div class="swiper-slide">
+                                              <img src="tc3.jpg" class="bookcover" id="tc3" name="bookslider">
+                                            </div>
+                                            <div class="swiper-slide">
+                                              <img src="tc4.jpg" class="bookcover" id="tc4" name="bookslider">
+                                            </div>
+                                            <div class="swiper-slide">
+                                              <img src="tc5.jpg" class="bookcover" id="tc5" name="bookslider">
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div><p> <b>Young Adults</b></p><div>
+                                          <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                              <div class="swiper-slide">
+                                                <img src="ya1.jpg" class="bookcover" id="ya1" name="bookslider">
+                                              </div>
+                                              <div class="swiper-slide">
+                                                <img src="ya2.jpg" class="bookcover" id="ya2" name="bookslider">
+                                              </div>
+                                              <div class="swiper-slide">
+                                                <img src="ya3.jpg" class="bookcover" id="ya3" name="bookslider">
+                                              </div>
+                                              <div class="swiper-slide">
+                                                <img src="ya4.jpg" class="bookcover" id="ya4" name="bookslider">
+                                              </div>
+                                              <div class="swiper-slide">
+                                                <img src="ya5.jpg" class="bookcover" id="ya5" name="bookslider">
+                                              </div>
+                                            </div>
+                                          </div>
+
+          <p> <b>Trending titles </b></p>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="ken.jpg" class="bookcover" id="ken" name="bookslider">
+              </div>
+              <div class="swiper-slide">
+                <img src="gambit.jpg" class="bookcover" id="gambit" name="bookslider">
+              </div>
+              <div class="swiper-slide">
+                <img src="onemore.jpg" class="bookcover" id="onemore" name="bookslider">
+              </div>
+              <div class="swiper-slide">
+                <img src="find.jpg" class="bookcover" id="find" name="bookslider">
+              </div>
+              <div class="swiper-slide">
+                <img src="walk.jpg" class="bookcover" id="walk" name="bookslider">
+              </div>
+            </div>
+          </div>
+  </div>
+
+</div>
+</div>
+
+<footer id="footer-menu">
+  <a href="explore.html"><i class="fas fa-home" color="#FF5C28"></i></a>
+  <a href="homeBooksAdded.html"><i class="fas fa-bookmark"></i></a>
+</footer>
+
+
+  	<!-- Swiper JS -->
+  	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+  	<script>
+  		var swipertwo = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        freeMode: true,
+      });
+  	</script>
+
+
+    <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper('.swiper-container2', {
+     slidesPerView: 'auto',
+     spaceBetween: 40,
+     centeredSlides: true,
+     grabCursor: true,
+     loop: true,
+     pagination: {
+       el: '.swiper-pagination',
+       clickable: true,
+     },
+   });
+ </script>
+
+
+
+</body>
+</html>
