@@ -43,7 +43,7 @@ body.dark {
 
 @font-face {
 font-family: "Storytel Euclid";
-src: url('../masterthesis StorytelEuclid-Regular.ttf');
+src: url('./masterthesis/StorytelEuclid-Regular.ttf');
 }
 
 #booktext {
