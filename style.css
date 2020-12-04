@@ -274,11 +274,10 @@ color: #fff;
 }
 
 .starttest {
-position: absolute;
+position: fixed;
 right: 0;
 left: 0;
-bottom: 0vh;
-top: 580px;
+bottom: 5vh;
 margin: 0 auto;
 font-family: 'Storytel Euclid';
 text-decoration: none;
