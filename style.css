@@ -62,7 +62,7 @@ body.dark {
 
 #booktext4 {
   /* position: absolute; */
-  font-family: 'Storytel Euclid';
+  font-family: 'Storytel EuclidM';
   font-size: 5vW;
   color: #48001E;
   font-weight: bold;
@@ -85,7 +85,7 @@ h1 {
 }
 
 h3 {
-  font-family: 'Storytel Euclid';
+  font-family: 'Storytel EuclidM';
   font-size: 8vW;
   padding-left: 1vW;
   padding-top: 20px;
@@ -1067,7 +1067,7 @@ a {
 
 h4 {
  display: inline;
- font-family: 'Storytel Euclid';
+ font-family: 'Storytel EuclidM';
  color: #48001E;
  font-size: 36px;
 }
