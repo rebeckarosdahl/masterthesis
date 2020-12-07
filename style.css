@@ -665,11 +665,13 @@ ol, ul {
       cursor: pointer !important;
     }
 
-    label {
+label > *{display: block;pointer-events: none;}
+
+   /* label {
       padding-right: 12px;
       padding-bottom: 10px;
       cursor: pointer !important;
-    }
+    }*/
 
     .interestpicker {
       padding-left: 13vW;
