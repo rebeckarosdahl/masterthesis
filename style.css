@@ -646,6 +646,7 @@ ol, ul {
 
     input:checked+label>choices {
       background: red;
+      cursor: pointer !important;
     }
 
     input{
@@ -655,19 +656,19 @@ ol, ul {
     input:checked+label>.choices {
       background-color: #FF5C28 !important;
       color: #fff !important;
-      cursor: pointer;
+      cursor: pointer !important;
     }
 
     input:checked+label>.demobutton {
       background-color: #FF5C28 !important;
       color: #fff !important;
-      cursor: pointer;
+      cursor: pointer !important;
     }
 
     label {
       padding-right: 12px;
       padding-bottom: 10px;
-      cursor: pointer;
+      cursor: pointer !important;
     }
 
     .interestpicker {
