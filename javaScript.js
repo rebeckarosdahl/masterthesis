@@ -15,18 +15,6 @@ function start() {
   showbookinfo();
 }
 
-$(document).on("click", ".imgtitleclick", function (e) {
-    $(this).find('.valdbok').trigger('change');
-});
-
-
-$(document).on("change", ".valdbok", function (e) {
-  var $checks = $('.valdbok');
-  var string = $checks.filter(':checked').map(function(i,v){
-    return this.value;
-  })
-});
-
 
 if(localStorage) {
 	$(document).ready(function() {
