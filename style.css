@@ -647,22 +647,27 @@ ol, ul {
     input:checked+label>choices {
       background: red;
       cursor: pointer !important;
+      -webkit-appearance: none !important;
+
     }
 
     input{
       display: none
+         -webkit-appearance: none !important;
     }
 
     input:checked+label>.choices {
       background-color: #FF5C28 !important;
       color: #fff !important;
       cursor: pointer !important;
+       -webkit-appearance: none !important;
     }
 
     input:checked+label>.demobutton {
       background-color: #FF5C28 !important;
       color: #fff !important;
       cursor: pointer !important;
+       -webkit-appearance: none !important;
     }
 
 
@@ -671,6 +676,7 @@ ol, ul {
       padding-right: 12px;
       padding-bottom: 10px;
       cursor: pointer !important;
+       -webkit-appearance: none !important;
     }
 
     .interestpicker {
