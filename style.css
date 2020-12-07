@@ -652,7 +652,7 @@ ol, ul {
     }
 
     input{
-      display: none
+      display: none;
          -webkit-appearance: none !important;
     }
 
@@ -667,7 +667,6 @@ ol, ul {
       background-color: #FF5C28 !important;
       color: #fff !important;
       cursor: pointer !important;
-       -webkit-appearance: none !important;
     }
 
 
@@ -676,7 +675,6 @@ ol, ul {
       padding-right: 12px;
       padding-bottom: 10px;
       cursor: pointer !important;
-       -webkit-appearance: none !important;
     }
 
     .interestpicker {
