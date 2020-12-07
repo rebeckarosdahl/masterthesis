@@ -15,10 +15,6 @@ function start() {
   showbookinfo();
 }
 
-$('input[type="checkbox"]').on('change', function() {
-  $('input[type="checkbox"]').not(this).prop('checked', false);
-});
-
 
 if(localStorage) {
 	$(document).ready(function() {
