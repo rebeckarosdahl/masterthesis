@@ -665,7 +665,10 @@ ol, ul {
       cursor: pointer !important;
     }
 
-label > *{display: block;pointer-events: none;}
+label > *{
+  display: block !important;
+  pointer-events: none !important;
+}
 
    /* label {
       padding-right: 12px;
