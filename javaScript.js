@@ -1289,7 +1289,9 @@ if(localStorage) {
                 var button = document.getElementById("pickedButton").style.backgroundColor;
                 document.getElementById("pickedButton").style.background = "rgb(255,92,40)";
                 document.getElementById("pickedButton").style.border = "none";
-              }
+              } else {
+	      	$($(".choices")[i]).css("background-color", "rgb(255,204,194)")
+	      }
             }
 		});
 	});
