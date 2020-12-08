@@ -1265,6 +1265,9 @@ if(localStorage) {
       var radio_check_val = "";
           for (i = 0; i < document.getElementsByName('fruit').length; i++) {
               if (document.getElementsByName('fruit')[i].checked) {
+		      
+		$($(this).nextElementSibling).css("background-color", "green")
+
 
                 if (category=="" && category2=="" && category3=="" && category4=="") {
                   window.category = document.getElementsByName('fruit')[i].id;
