@@ -8,7 +8,7 @@ font-family: "Storytel EuclidM";
 src: url('StorytelEuclid-Medium.ttf');
 }
 
-label > * { pointer-events:none; }
+label > * { pointer-events:none !important; }
 
 body {
   /* background-color: #48001E; */
