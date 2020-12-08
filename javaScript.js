@@ -15,6 +15,8 @@ function start() {
   showbookinfo();
 }
 
+$('test_label').click(function(){});
+
 
 if(localStorage) {
 	$(document).ready(function() {
