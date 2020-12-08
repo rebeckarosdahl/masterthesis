@@ -1263,7 +1263,7 @@ if(localStorage) {
           for (i = 0; i < document.getElementsByName('fruit').length; i++) {
               if (document.getElementsByName('fruit')[i].checked) {
 		      
-		$($(this).nextElementSibling).css("background-color", "green")
+		$($(".choices")[i]).css("background-color", "rgb(255,92,40)")
 
 
                 if (category=="" && category2=="" && category3=="" && category4=="") {
