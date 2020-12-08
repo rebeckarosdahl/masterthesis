@@ -8,6 +8,10 @@ font-family: "Storytel EuclidM";
 src: url('StorytelEuclid-Medium.ttf');
 }
 
+.name-checkbox .choices {
+      pointer-events: none;
+    }
+
 body {
   /* background-color: #48001E; */
   background-color: #fff
@@ -17,7 +21,6 @@ body {
   padding: 0;
   color: #fff;
   font-family: "Storytel Euclid";
-
   }
 
 body.partone {
