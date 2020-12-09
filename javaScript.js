@@ -1428,12 +1428,7 @@ function showbook() {
         $("#imgspace4").attr("src","ya4.jpg");
         $("#imgspace5").attr("src","ya5.jpg");
       } else {
-        document.getElementById('title1').innerHTML = "<p><b>Cold Case Thrillers<b></p>";
-        $("#imgspace1").attr("src","t1.jpg");
-        $("#imgspace2").attr("src","t2.jpg");
-        $("#imgspace3").attr("src","t3.jpg");
-        $("#imgspace4").attr("src","t4.jpg");
-        $("#imgspace5").attr("src","t5.jpg");
+              document.getElementById('title1').innerHTML = "<p><b>Cold Case Thrillers<b></p>";
       }
 
 
