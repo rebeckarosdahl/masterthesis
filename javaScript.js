@@ -2090,6 +2090,6 @@ function survey() {
     window.location.href="https://rebeckarosdahl421154.typeform.com/to/ZK5J2DQk";
   } else {
     // window.alert(thenumber);
-    window.location.href="https://rebeckarosdahl421154.typeform.com/to/eoEMJA9l";
+    window.location.href="https://rebeckarosdahl.typeform.com/to/TkOIOxSt";
   }
 }
